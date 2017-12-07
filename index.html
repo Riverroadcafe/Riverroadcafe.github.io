@@ -228,37 +228,42 @@
         <div class="col-md-offset-3 col-md-6 text-center">
           <div class="widget">
             <h4 class="widget-title">River Road Cafe</h4>
-            <address>1642 FM 2673
-            </br>Canyon Lake TX, 78132
-          </br>We are kinda hidden in the corner but we are a hidden gem, call if you can't find us.</br></br>
-          <head>
-    <style>
-       #map {
-        height: 400px;
-        width: 100%;
-       }
-    </style>
-  </head>
-  <body>
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: 29.8488591, lng: -98.176265};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvd4IG7VzmR5xzn6sgAVIPjScCy0HViZI&callback=initMap">
-    </script>
+              <address>1642 FM 2673
+                </br>
+                Canyon Lake TX, 78132
+                </br>
+                We are kinda hidden in the corner but we are a hidden gem, call if you can't find us.
+                </br>
+                </br>
+              </address>
+              <head>
+                <style>
+                  #map {
+                    height: 400px;
+                    width: 100%;
+                  }
+                </style>
+              </head>
+            <body>
+              <div id="map"></div>
+              <script>
+                function initMap() {
+                  var uluru = {lat: 29.8488591, lng: -98.176265};
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 16,
+                    center: uluru
+                  });
+                  var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                  });
+                }
+              </script>
+              <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvd4IG7VzmR5xzn6sgAVIPjScCy0HViZI&callback=initMap">
+              </script>
             </body>
-            </address>
+
             <div class="social-list">
               <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </div>
